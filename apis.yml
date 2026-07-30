@@ -1,7 +1,30 @@
 aid: locale
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/locale.png
 name: Locale
-description: Locale is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Locale is a no-code workflow automation platform that lets operations, data, and
+  engineering teams build, run, and monitor automated workflows without writing
+  glue code. Its visual builder chains together apps and actions — HTTP requests,
+  AI Actions, run-your-own code, email, Slack, PostgreSQL, Sendgrid, and
+  Fireflies.ai — with flow controls such as conditional branching, delays, and list
+  iterators, then passes data between steps to orchestrate real business processes.
+  Workflows can be built, connected, debugged, and published from the Locale app,
+  and the platform positions itself as an operational automation layer for teams
+  that want internal alerting and process automation without a heavy engineering
+  lift. Locale is backed by a16z. This profile was enriched from Locale's public
+  documentation surface (docs.locale.ai); Locale publishes no first-party public
+  REST API or OpenAPI at this time.
 url: https://raw.githubusercontent.com/api-evangelist/locale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Workflow Automation
+- No-Code
+- Integration
+- iPaaS
+- Operations
+- Productivity
+- AI Actions
 apis: []
+common:
+- type: DomainSecurity
+  url: security/locale-domain-security.yml
+- type: LLMsTxt
+  url: llms/locale-llms.txt
+- type: DeveloperPortal
+  url: https://docs.locale.ai
+- type: Documentation
+  url: https://docs.locale.ai
+- type: GettingStarted
+  url: https://docs.locale.ai/workflows/building-a-workflow
+- type: Support
+  url: mailto:support@locale.ai
+- type: Login
+  url: https://app.locale.ai
+- type: Website
+  url: https://locale.ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
