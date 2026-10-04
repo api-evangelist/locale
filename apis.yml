@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Integration
 - iPaaS
@@ -63,6 +63,7 @@ tags_raw:
 - Operations
 - Productivity
 - AI Actions
+- Workflow-Automation
 apis: []
 common:
 - type: DomainSecurity
